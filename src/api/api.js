@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const USER_SERVICE = 'http://localhost:8081';
-const WALLET_SERVICE = 'http://localhost:8082';
-const PAYMENT_SERVICE = 'http://localhost:8083';
-const NOTIFICATION_SERVICE = 'http://localhost:8084';
+const USER_SERVICE = 'http://3.145.215.114:8081';
+const WALLET_SERVICE = 'http://3.145.215.114:8082';
+const PAYMENT_SERVICE = 'http://3.145.215.114:8083';
+const NOTIFICATION_SERVICE = 'http://3.145.215.114:8084';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');
